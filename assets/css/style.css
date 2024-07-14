@@ -1,11 +1,12 @@
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 /* Asterix wildcard selector to override default styles added by browser */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}  
+}
 
 /* General styles */
 body {
@@ -17,7 +18,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Exo', sans-serif;
     /* color palette option 1
     color: #e16b3c;*/
@@ -36,7 +38,7 @@ header {
     padding: 0 1rem;
     display: flex;
     justify-content: space-between;
-    z-index: 99; 
+    z-index: 99;
     align-items: baseline;
 }
 
@@ -85,6 +87,7 @@ nav {
     font-size: 2rem;
 }
 
+/* Main content */ 
 main {
     margin-top: 45px;
 }
@@ -92,37 +95,36 @@ main {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-
     /* Header */
     nav {
-      display: block;
-      position: relative;
-      box-shadow: none;
-      width: fit-content;
-
-
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
     }
 
     #menu {
         display: flex;
-    } 
-  
+    }
+
+    /* Remove Navbar Icon */
     .nav-toggle-label {
         display: none;
-      }
+    }
 
     #menu>li {
         padding-left: 1rem;
     }
-  
-    
+
     #logo {
         font-size: 200%;
-        margin:0.7rem 0;
-  }
+        margin: 0.7rem 0;
+    }
 
+    /* Main content */
+    /* Adjust main content for larger header size */
     main {
         margin-top: 66px;
     }
-  
+
 }
