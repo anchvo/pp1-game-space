@@ -84,3 +84,7 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
+main {
+    margin-top: 45px;
+}
