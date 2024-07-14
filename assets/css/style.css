@@ -24,4 +24,63 @@ h1, h2 {
     /* color palette option 2 */
     color: #a22527;
     text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Header */
+header {
+    background-color: #010323;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 1px 1px #a22527;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99; 
+    align-items: baseline;
+}
+
+header a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #a22527;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #010323;
+    box-shadow: 0 1px 1px #a22527;
+    width: 100%;
+    padding: 0 1rem;
+    display: none;
+    left: 0;
+    top: 100%;
+}
+
+/* Nav toggle */
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
