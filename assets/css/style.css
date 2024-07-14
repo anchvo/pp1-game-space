@@ -92,6 +92,20 @@ main {
     margin-top: 45px;
 }
 
+/* Footer */ 
+#social-networks {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+/* Footer Icons */
+#social-networks i {
+    color: #a22527;
+    font-size: 150%;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
