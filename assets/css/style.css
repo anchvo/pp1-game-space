@@ -1,0 +1,27 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Asterix wildcard selector to override default styles added by browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #010323;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Exo', sans-serif;
+    /* color palette option 1
+    color: #e16b3c;*/
+    /* color palette option 2 */
+    color: #a22527;
+    text-transform: uppercase;
+}
