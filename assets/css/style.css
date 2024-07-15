@@ -115,13 +115,47 @@ main {
 #hero-text>h4 {
     letter-spacing: 1px;
     text-transform: uppercase;
+    margin-bottom: 5px;
+}
+/* About section */ 
+/* General section styles */
+#about {
+    width: 100vw;
 }
 
-#about-topic-resouces img {
-    max-width: 100vw;
-    max-height: 100vw;
+#about h3 {
+    color: #a22527;
+    text-align: center;
+    text-transform: uppercase;
 }
 
+/* Styles for cards / div containers with text & image for each about topic */
+.about-cards {
+    display: block;
+    width: 80vw;
+    background-color: rgba(162, 37, 39, 0.7);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(1, 3, 35, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* Styling for all #about-topics child images */
+#about-topics img {
+    border-radius: 8px;
+    width: 80vw;
+    max-width: 615px;
+    max-height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling for all .about-cards child paragraphs */
+.about-cards p {
+    font-size: smaller;
+    padding: 5px 5px;
+}
 /* Footer */ 
 #social-networks {
     text-align: center;
