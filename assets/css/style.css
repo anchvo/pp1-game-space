@@ -133,15 +133,15 @@ main {
 }
 
 /* Change to flexbox to allow following div containers / cards to flex and change position */ 
-#about-topics {
+#about-container {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
 }
 
-/* Styles for cards / div containers with text & image for each about topic */
-.about-cards {
+/* Styles for each child div of main div container (containing individual topic text & images) */
+.about-topics {
     width: 80vw;
     background-color: rgba(162, 37, 39, 0.7);
     border-radius: 8px;
@@ -150,7 +150,7 @@ main {
 }
 
 /* Styling for all #about-topics child images */
-#about-topics img {
+#about-container img {
     border-radius: 8px;
     width: 80vw;
     max-width: 615px;
@@ -160,28 +160,28 @@ main {
     margin-right: auto;
 }
 
-/* Styling for all .about-cards child paragraphs */
-.about-cards p {
+/* Styling for all .about-topics divs child paragraphs */
+.about-topics p {
     font-size: smaller;
     padding: 5px 5px;
 }
 
 /* Styling for about cards topic titles */
-#about-cards-topic-titles {
+#about-topic-titles {
     text-transform: uppercase;
     text-decoration: underline;
     font-weight: bold;
     font-size: 1em;
 }
 
-/* Styling for links to other pages in .about-cards paragraphs */
-.about-cards p a {
+/* Styling for links to other pages in .about-topics divs paragraphs */
+.about-topics p a {
     text-transform: uppercase;
     color: inherit;
     text-decoration: none;
 }
 /* Add styling for hovering over links on larger screens */
-.about-cards p a:hover {
+.about-topics p a:hover {
     font-weight: bold;
     font-size: 110%;
   }
@@ -278,18 +278,18 @@ main {
         margin-top: 66px;
     }
     /* Responsive Try 1 */
-    #about-topics {
+    #about-container {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
 
-    .about-cards {
+    .about-topics {
         margin: 5px 10px;
         max-width: 300px;
     }
 
-    #about-topics img {
+    #about-container img {
         max-width: 300px;
         height: auto;
     }
