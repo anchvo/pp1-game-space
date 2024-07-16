@@ -97,7 +97,7 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
-
+/* Hero image responsive styling */
 #hero-image img {
     display: block;
     margin-left: auto;
@@ -106,14 +106,14 @@ main {
     max-width: 100%;
     background: no-repeat;
 }
-
+/* Hero section title / welcome heading */
 #hero-text {
     text-align: center;
     width: 100%;
     padding: 10px;
 }
-
-#hero-text>h4 {
+/* Hero section subtitle */ 
+#hero-text > h4 {
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -124,31 +124,29 @@ main {
 #about {
     width: 100vw;
 }
-
+/* About section heading styles */
 #about h3 {
     color: #a22527;
     text-align: center;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
-
-/* Change to flexbox */ 
+/* Change to flexbox to allow following div containers / cards to flex and change position */ 
 #about-topics {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 /* Styles for cards / div containers with text & image for each about topic */
-
 .about-cards {
-    /*display: block;
-    flex: 25%; */ 
     width: 80vw;
     background-color: rgba(162, 37, 39, 0.7);
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(162, 37, 39, 0.3);
+    box-shadow: 2px 2px 8px 2px rgba(162, 37, 39, 0.3);
     margin: 10px auto;
-    text-align: center;
 }
 
 /* Styling for all #about-topics child images */
@@ -168,6 +166,14 @@ main {
     padding: 5px 5px;
 }
 
+/* Styling for about cards topic titles */
+#about-cards-topic-titles {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1em;
+}
+
 /* Styling for links to other pages in .about-cards paragraphs */
 .about-cards p a {
     text-transform: uppercase;
@@ -176,6 +182,7 @@ main {
 }
 
 /* Footer */
+/* Footer hr element styling to fit header / navbar style */
 #footer-separation {
     color: #a22527;
     margin: 5px 0;
@@ -186,6 +193,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    margin: 6px 0 4px;
 }
 
 /* Footer Icons */
