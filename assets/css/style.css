@@ -137,7 +137,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    text-align: center;
 }
 
 /* Styles for each child div of main div container (containing individual topic text & images) */
@@ -172,6 +171,7 @@ main {
     text-decoration: underline;
     font-weight: bold;
     font-size: 1em;
+    text-align: center;
 }
 
 /* Styling for links to other pages in .about-topics divs paragraphs */
@@ -187,6 +187,12 @@ main {
   }
 
 /* Locations section */
+
+#locations h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
 /* General div container including divs for images and text content */
 #locations-container {
     display: flex;
@@ -195,8 +201,12 @@ main {
     align-items: center;
 }
 
-#locations h2 {
-    margin-top: 10px;
+#locations-hamburg , #locations-berlin , #locations-munich {
+    width: 80vw;
+    background-color: rgba(162, 37, 39, 0.7);
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px 2px rgba(162, 37, 39, 0.3);
+    margin: 10px auto;
 }
 
 #locations img {
@@ -207,10 +217,20 @@ main {
     border-radius: 50%;
 }
 
-#locations table {
+#locations p {
     font-size: smaller;
+    padding: 5px 5px;
 }
 
+#locations h4 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#locations h5 {
+    text-decoration: underline;
+    padding: 5px 5px;
+}
 #locations a {
     text-transform: uppercase;
     color: inherit;
@@ -220,14 +240,6 @@ main {
 #locations a:hover {
     font-weight: bold;
     font-size: 110%;
-}
-
-#location-hamburg , #location-berlin , #location-munich {
-    width: 80vw;
-    background-color: rgba(162, 37, 39, 0.7);
-    border-radius: 8px;
-    box-shadow: 2px 2px 8px 2px rgba(162, 37, 39, 0.3);
-    margin: 10px auto;
 }
 
 /* Events section */
