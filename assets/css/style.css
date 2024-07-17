@@ -203,7 +203,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
 }
 
 #locations-hamburg , #locations-berlin , #locations-munich {
@@ -220,6 +219,8 @@ main {
     margin: 10px 0;
     /* Makes square image into a circle */
     border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 #locations h5 {
@@ -414,10 +415,12 @@ textarea {
         margin-top: 66px;
     }
     /* Responsive Try 1 */
+    /* About section */
     #about-container {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        width: 100%;
     }
 
     .about-topics {
@@ -430,21 +433,57 @@ textarea {
         height: auto;
     }
 
+    /* Locations section */ 
+    #locations-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .locations-categories {
+        margin: 5px 10px;
+        max-width: 300px;
+    }
+
+    /* Events section */
     #events-container {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-    }
-
-    #events-container img {
-        max-width: 300px;
-        height: auto;
+        width: 100%;
     }
 
     #events-community, #events-sponsored {
-        max-width: 300px;
-        height: auto;
+        max-height: 200px;
+        width: auto;
     }
 
+    /* Resources section */
+
+    #resources-hardware , #resources-information {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    #resources-hardware > div , 
+    #resources-information > div {
+        width: 75%;
+        margin: 5px 10px;
+        align-self: center;
+    }
+
+    #joinus-form {
+            top: 150px;
+            left: 10px;
+            max-width: 450px;
+    }
+}
+
+/* Media query: laptops and desktops (992px and up) */
+@media screen and (min-width: 992px) {
 
 }
