@@ -46,6 +46,8 @@
                 <h2> Join Us!</h2>
                 <h4>And become a part of our community</h4>
                 <p>Sign up to gain access to or host events, visit our locations or join in a partnership with us!</p>
+                <fieldset>
+                <legend>Personalia:</legend>
                 <label for="first-name">First Name</label>
                 <input type="text" name="first_name" id="first-name" class="text-input" required>
                 <br>
@@ -55,7 +57,10 @@
                 <label for="email-address">Email Address</label>
                 <input type="email" name="email_address" id="email-address" class="text-input" required>
                 <br>
-                <label for="radio-buttons">I want to join you as a:</label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>I want to join you as a:</legend>
                 <div class="radio-buttons">
                     <div>
                         <label for="member">Member</label>
@@ -70,16 +75,29 @@
                         <input type="radio" name="signup-type" id="sponsor" value="sponsor" required checked>
                     </div>
                 </div>
-                <label for="signup-options">I want to:</label>
-                <select id="signup-options" name="signup-options" size="6" multiple>
-                    <option value="join-events">Join Events</option>
-                    <option value="gain-location-access">Gain Access to Locations</option>
-                    <option value="become-sponsor">Become a Sponsor</option>
-                    <option value="host-events">Host Events</option>
-                    <option value="join-partnership">Join a Partnership</option>
-                    <option value="create-community-content">Create Community Content</option>
-                </select>
-                <input type="text" id="">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>I want to:</legend>
+                <input type="checkbox" id="join-events" name="signup-options" value="join-events">
+                <label for="join-events">Join Events</label><br>
+                <input type="checkbox" id="gain-acces-locations" name="signup-options" value="gain-access-locations">
+                <label for="gain-access-locations">Gain Access to Locations</label><br>
+                <input type="checkbox" id="become-sponsor" name="signup-options" value="become-sponsor">
+                <label for="become-sponsor">Become a Sponsor/label><br>
+                <input type="checkbox" id="host-events" name="signup-options" value="host-events">
+                <label for="host-events">Host Events</label><br>
+                <input type="checkbox" id="build-partnership" name="signup-options" value="build-partnership">
+                <label for="build-partnership">Build a Partnership</label><br>
+                <input type="checkbox" id="create-community-content" name="signup-options" value="create-community-content">
+                <label for="create-community-content">Create Community Content</label><br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Additional Information:</legend>
+                <textarea name="additional-information" id="additonal-information" onfocus="this.value=''">Something you like to add? Let us know here!</textarea>
+                <br>
+                </fieldset>
                 <br>
                 <button type="submit" class="join-button">Let's Play!</button>
             </form>
