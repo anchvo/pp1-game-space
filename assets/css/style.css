@@ -245,13 +245,13 @@ main {
 }
 
 #events img {
-    height: 90vw;
+    height: 80vw;
     width: 90vw;
     margin: 10px 0;
     /* Makes square image into a circle */
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 200px;
+    border-radius: 20%;
+    max-width: 400px;
+    max-height: 250px;
 }
 
 #events-community , #events-sponsored {
@@ -425,7 +425,7 @@ textarea {
     .about-topics {
         max-width: 300px;
     }
-    
+
     #about-container img {
         max-width: 300px;
         height: auto;
@@ -497,6 +497,18 @@ textarea {
     #about-container img {
         max-width: 300px;
         height: auto;
+    }
+
+    /* Events section */
+    #events-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #events-container > div {
+        max-width: 50%;
     }
 
     /* Locations section */
