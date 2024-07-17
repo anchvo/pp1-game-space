@@ -58,6 +58,12 @@ a:hover {
     font-size: 110%;
 }
 
+hr {
+    border: 1px solid #010323;
+    margin: 5px 0;
+    padding: 0 5px;
+}
+
 /* Header */
 header {
     background-color: #010323;
@@ -282,6 +288,20 @@ main {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+}
+
+#resources-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resources-types {
+    width: 90vw;
+    background-color: rgba(162, 37, 39, 0.7);
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px 2px rgba(162, 37, 39, 0.3);
+    margin: 10px auto;
 }
 
 /*Join Us section*/
