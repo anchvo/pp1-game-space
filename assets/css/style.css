@@ -485,5 +485,32 @@ textarea {
 
 /* Media query: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
+    #resources-container {
+        display: flex;
+        flex-direction: row;
+    }
 
+    #resources-container > div {
+        flex: 1;
+    }
+
+    #resources-image {
+        order: 1;
+    }
+
+    #resources-hardware {
+        order: 0;
+    }
+
+    #resources-information {
+        order: 2;
+    }
+
+    #resources-information > div {
+        align-self: flex-start;
+    }
+
+    #resources-hardware > div {
+        align-self: flex-end;
+    }
 }
