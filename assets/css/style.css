@@ -226,6 +226,10 @@ main {
     max-height: 300px;
 }
 
+.locations-images {
+    text-align: center;
+}
+
 #locations h5 {
     text-decoration: underline;
     padding: 5px 5px;
@@ -255,6 +259,10 @@ main {
     border-radius: 20%;
     max-width: 400px;
     max-height: 250px;
+}
+
+.events-images {
+    text-align: center;
 }
 
 #events-community , #events-sponsored {
@@ -525,7 +533,7 @@ textarea {
 
     .locations-categories {
         margin: 5px 10px;
-        max-width: 300px;
+        max-width: 320px;
     }
     /* Resources section */
     #resources-container {
