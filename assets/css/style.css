@@ -154,6 +154,9 @@ main {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
+    margin: 0 25% 10px;
+    border: 1px solid #a22527;
+    border-radius: 8px;
 }
 
 /* Change to flexbox to allow following div containers / cards to flex and change position */ 
