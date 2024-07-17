@@ -284,7 +284,7 @@ main {
     background: url("../images/resources-circle-image-bg.webp") no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
-    margin-bottom: 20px;
+    margin: 20px;
     /* Makes the square image into a circle */
     border-radius: 50%;
     max-width: 300px;
@@ -418,16 +418,14 @@ textarea {
     /* About section */
     #about-container {
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        flex-direction: column;
         width: 100%;
     }
 
     .about-topics {
-        margin: 5px 10px;
         max-width: 300px;
     }
-
+    
     #about-container img {
         max-width: 300px;
         height: auto;
@@ -436,28 +434,26 @@ textarea {
     /* Locations section */ 
     #locations-container {
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        flex-direction: column;
         gap: 20px;
         width: 100%;
     }
 
     .locations-categories {
-        margin: 5px 10px;
-        max-width: 300px;
+        align-self: center;
+        max-width: 75%;
     }
 
     /* Events section */
     #events-container {
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        flex-direction: column;
         width: 100%;
     }
 
-    #events-community, #events-sponsored {
-        max-height: 200px;
-        width: auto;
+    #events-container > div {
+        align-self: center;
+        max-width: 75%;
     }
 
     /* Resources section */
@@ -485,6 +481,38 @@ textarea {
 
 /* Media query: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
+    /* About section */
+    #about-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .about-topics {
+        margin: 5px 10px;
+        max-width: 300px;
+    }
+
+    #about-container img {
+        max-width: 300px;
+        height: auto;
+    }
+
+    /* Locations section */
+    #locations-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .locations-categories {
+        margin: 5px 10px;
+        max-width: 300px;
+    }
+    /* Resources section */
     #resources-container {
         display: flex;
         flex-direction: row;
