@@ -27,6 +27,35 @@ h2 {
     color: #a22527;
     text-transform: uppercase;
     letter-spacing: 1px;
+
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+h4 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: smaller;
+    padding: 5px 5px;
+}
+
+a {
+    text-transform: uppercase;
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    font-size: 110%;
 }
 
 /* Header */
@@ -40,11 +69,6 @@ header {
     justify-content: space-between;
     z-index: 99;
     align-items: baseline;
-}
-
-header a {
-    color: inherit;
-    text-decoration: none;
 }
 
 #menu {
@@ -112,12 +136,6 @@ main {
     width: 100%;
     padding: 10px;
 }
-/* Hero section subtitle */ 
-#hero-text > h4 {
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-}
 
 /* About section */
 /* General section styles */
@@ -159,12 +177,6 @@ main {
     margin-right: auto;
 }
 
-/* Styling for all .about-topics divs child paragraphs */
-.about-topics p {
-    font-size: smaller;
-    padding: 5px 5px;
-}
-
 /* Styling for about topic titles */
 #about-topic-titles {
     text-transform: uppercase;
@@ -174,24 +186,7 @@ main {
     text-align: center;
 }
 
-/* Styling for links to other pages in .about-topics divs paragraphs */
-.about-topics p a {
-    text-transform: uppercase;
-    color: inherit;
-    text-decoration: none;
-}
-/* Add styling for hovering over links */
-.about-topics p a:hover {
-    font-weight: bold;
-    font-size: 110%;
-  }
-
 /* Locations section */
-
-#locations h2 {
-    margin-top: 10px;
-    text-align: center;
-}
 
 /* General div container including divs for images and text content */
 #locations-container {
@@ -217,29 +212,9 @@ main {
     border-radius: 50%;
 }
 
-#locations p {
-    font-size: smaller;
-    padding: 5px 5px;
-}
-
-#locations h4 {
-    text-transform: uppercase;
-    text-align: center;
-}
-
 #locations h5 {
     text-decoration: underline;
     padding: 5px 5px;
-}
-#locations a {
-    text-transform: uppercase;
-    color: inherit;
-    text-decoration: none;
-}
-
-#locations a:hover {
-    font-weight: bold;
-    font-size: 110%;
 }
 
 /* Events section */
@@ -248,17 +223,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    text-align: center;
     align-items: center;
-}
-
-#events h2 {
-    margin-top: 10px;
-}
-
-#events p {
-    font-size: smaller;
-    padding: 5px 5px;
 }
 
 #events > p {
@@ -288,23 +253,14 @@ main {
 #events h3 {
     text-transform: uppercase;
     text-decoration: underline;
+    text-align: center;
 }
 
 #events h4 {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1em;
-}
-
-#events a {
-    text-transform: uppercase;
-    color: inherit;
-    text-decoration: none;
-}
-
-#events a:hover {
-    font-weight: bold;
-    font-size: 110%;
+    text-align: left;
 }
 
 /* Resources section */
