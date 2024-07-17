@@ -186,10 +186,10 @@ main {
 /* Styling for about topic titles */
 #about-topic-titles {
     text-transform: uppercase;
-    text-decoration: underline;
     font-weight: bold;
     font-size: 1em;
     text-align: center;
+    margin-top: 5px;
 }
 
 /* Locations section */
