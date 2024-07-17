@@ -42,63 +42,62 @@
     <!-- Main Content -->
     <main>
         <section id="joinus">
+            <h2> Join Us!</h2>
+            <h4>And become a part of our community</h4>
             <form id="joinus-form" method="POST" action="https://formdump.codeinstitute.net">
-                <h2> Join Us!</h2>
-                <h4>And become a part of our community</h4>
                 <p>Sign up to gain access to or host events, visit our locations or join in a partnership with us!</p>
                 <fieldset>
-                <legend>Personalia:</legend>
-                <label for="first-name">First Name</label>
-                <input type="text" name="first_name" id="first-name" class="text-input" required>
-                <br>
-                <label for="last-name">Last Name</label>
-                <input type="text" name="last_name" id="last-name" class="text-input" required>
-                <br>
-                <label for="email-address">Email Address</label>
-                <input type="email" name="email_address" id="email-address" class="text-input" required>
-                <br>
+                    <legend>Personalia:</legend>
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first_name" id="first-name" class="text-input" required>
+                    <br>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last_name" id="last-name" class="text-input" required>
+                    <br>
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="email_address" id="email-address" class="text-input" required>
                 </fieldset>
-                <br>
                 <fieldset>
                     <legend>I want to join you as a:</legend>
-                <div class="radio-buttons">
-                    <div>
-                        <label for="member">Member</label>
-                        <input type="radio" name="signup-type" id="member" value="member" required checked>
+                    <div class="radio-buttons">
+                        <div>
+                            <label for="member">Member</label>
+                            <input type="radio" name="signup-type" id="member" value="member" required checked>
+                        </div>
+                        <div>
+                            <label for="partner">Partner</label>
+                            <input type="radio" name="signup-type" id="partner" value="partner" required checked>
+                        </div>
+                        <div>
+                            <label for="sponsor">Sponsor</label>
+                            <input type="radio" name="signup-type" id="sponsor" value="sponsor" required checked>
+                        </div>
                     </div>
-                    <div>
-                        <label for="partner">Partner</label>
-                        <input type="radio" name="signup-type" id="partner" value="partner" required checked>
-                    </div>
-                    <div>
-                        <label for="sponsor">Sponsor</label>
-                        <input type="radio" name="signup-type" id="sponsor" value="sponsor" required checked>
-                    </div>
-                </div>
                 </fieldset>
-                <br>
                 <fieldset>
                     <legend>I want to:</legend>
-                <input type="checkbox" id="join-events" name="signup-options" value="join-events">
-                <label for="join-events">Join Events</label><br>
-                <input type="checkbox" id="gain-acces-locations" name="signup-options" value="gain-access-locations">
-                <label for="gain-access-locations">Gain Access to Locations</label><br>
-                <input type="checkbox" id="become-sponsor" name="signup-options" value="become-sponsor">
-                <label for="become-sponsor">Become a Sponsor/label><br>
-                <input type="checkbox" id="host-events" name="signup-options" value="host-events">
-                <label for="host-events">Host Events</label><br>
-                <input type="checkbox" id="build-partnership" name="signup-options" value="build-partnership">
-                <label for="build-partnership">Build a Partnership</label><br>
-                <input type="checkbox" id="create-community-content" name="signup-options" value="create-community-content">
-                <label for="create-community-content">Create Community Content</label><br>
+                    <div class="checkboxes">
+                    <input type="checkbox" id="join-events" name="signup-options" value="join-events">
+                    <label for="join-events">Join Events</label><br>
+                    <input type="checkbox" id="gain-acces-locations" name="signup-options"
+                        value="gain-access-locations">
+                    <label for="gain-access-locations">Gain Access to Locations</label><br>
+                    <input type="checkbox" id="become-sponsor" name="signup-options" value="become-sponsor">
+                    <label for="become-sponsor">Become a Sponsor</label><br>
+                        <input type="checkbox" id="host-events" name="signup-options" value="host-events">
+                        <label for="host-events">Host Events</label><br>
+                        <input type="checkbox" id="build-partnership" name="signup-options" value="build-partnership">
+                        <label for="build-partnership">Build a Partnership</label><br>
+                        <input type="checkbox" id="create-community-content" name="signup-options"
+                            value="create-community-content">
+                        <label for="create-community-content">Create Community Content</label><br>
+                    </div>
                 </fieldset>
-                <br>
                 <fieldset>
                     <legend>Additional Information:</legend>
-                <textarea name="additional-information" id="additonal-information" onfocus="this.value=''">Something you like to add? Let us know here!</textarea>
-                <br>
+                    <textarea name="additional-information" id="additonal-information"
+                        onfocus="this.value=''">Something you like to add? Let us know here!</textarea>
                 </fieldset>
-                <br>
                 <button type="submit" class="join-button">Let's Play!</button>
             </form>
         </section>

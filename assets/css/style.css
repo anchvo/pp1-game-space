@@ -159,7 +159,7 @@ main {
 
 /* Styles for each child div of main div container (containing individual topic text & images) */
 .about-topics {
-    width: 80vw;
+    width: 90vw;
     background-color: rgba(162, 37, 39, 0.7);
     border-radius: 8px;
     box-shadow: 2px 2px 8px 2px rgba(162, 37, 39, 0.3);
@@ -169,7 +169,7 @@ main {
 /* Styling for all #about-topics child images */
 #about-container img {
     border-radius: 8px;
-    width: 80vw;
+    width: 90vw;
     max-width: 615px;
     max-height: 450px;
     display: block;
@@ -188,6 +188,10 @@ main {
 
 /* Locations section */
 
+#locations {
+    width: 100vw;
+}
+
 /* General div container including divs for images and text content */
 #locations-container {
     display: flex;
@@ -197,7 +201,7 @@ main {
 }
 
 #locations-hamburg , #locations-berlin , #locations-munich {
-    width: 80vw;
+    width: 90vw;
     background-color: rgba(162, 37, 39, 0.7);
     border-radius: 8px;
     box-shadow: 2px 2px 8px 2px rgba(162, 37, 39, 0.3);
@@ -224,6 +228,7 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    width: 100vw;
 }
 
 #events > p {
@@ -243,7 +248,7 @@ main {
 }
 
 #events-community , #events-sponsored {
-    width: 80vw;
+    width: 90vw;
     background-color: rgba(162, 37, 39, 0.7);
     border-radius: 8px;
     box-shadow: 2px 2px 8px 2px rgba(162, 37, 39, 0.3);
@@ -264,6 +269,9 @@ main {
 }
 
 /* Resources section */
+#resources {
+    width: 100vw;
+}
 
 #resources-circle-image-bg {
     background: url("../images/resources-circle-image-bg.webp") no-repeat top center/cover;
@@ -275,6 +283,61 @@ main {
     max-width: 300px;
     max-height: 300px;
 }
+
+/*Join Us section*/
+#joinus {
+    width: 100vw;
+}
+
+#joinus-form {
+    width: 90vw;
+    background-color: rgba(162, 37, 39, 0.7);
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px 2px rgba(162, 37, 39, 0.3);
+    margin: 10px auto;
+}
+
+fieldset {
+    font-size: smaller;
+    border: none;
+    padding: 10px 5px;
+    margin: 5px 5px;
+    border: 2px solid rgba(1, 35, 37, 0.5);
+    border-radius: 2px;
+}
+
+.text-input {
+    width: 100%;
+    height: 25px;
+    border: 1px solid rgb(1, 35, 37);
+    border-radius: 2px;
+}
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    border: 1px solid rgb(1, 35, 37);
+    border-radius: 2px;
+}
+
+.join-button {
+    border: 1px solid rgb(1, 35, 37);
+    border-radius: 2px;
+    margin: 10px 37%;
+    padding: 10px 10px;
+    font-size: 90%;
+    text-transform: uppercase;
+}
+
+.join-button:hover {
+    font-weight: bold;
+}
+
 /* Footer */
 /* Footer hr element styling to fit header / navbar style */
 #footer-separation {
