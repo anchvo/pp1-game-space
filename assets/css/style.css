@@ -55,7 +55,6 @@ a {
 
 a:hover {
     font-weight: bold;
-    font-size: 110%;
 }
 
 hr {
@@ -382,7 +381,7 @@ footer {
 }
 /* Footer hr element styling to fit header / navbar style */
 #footer-separation {
-    color: #a22527;
+    border: 1px solid rgba(162, 37, 39, 0.7);
     margin: 5px 0;
 }
 

@@ -168,11 +168,15 @@ Existing Members
 
  - __HTML__
 
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html).
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fanchvo.github.io%2Fpp1-game-space%2F).
 
  - __CSS__
 
+    - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fanchvo.github.io%2Fpp1-game-space%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). 
+
  - __Accessibility__
+
+    - 
 
 ### Unfixed Bugs
 
