@@ -176,7 +176,9 @@ Existing Members
 
  - __Accessibility__
 
-    - 
+    - Lighthouse Testing
+
+      ![Lighthouse Accessibility Testing](screenshots/lighthouse-accessibility.png)
 
 ### Unfixed Bugs
 
