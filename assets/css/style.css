@@ -364,6 +364,8 @@ textarea {
 .join-button {
     border: 1px solid rgb(1, 35, 37);
     border-radius: 2px;
+    max-width: 300px;
+    max-height: 200px;
     margin: 10px 37%;
     padding: 10px 10px;
     font-size: 90%;
