@@ -280,6 +280,11 @@ main {
     text-align: center;
 }
 
+#events h4 {
+    padding-left: 5px;
+    text-align: left;
+}
+
 /* Resources section */
 #resources {
     width: 100vw;
@@ -365,6 +370,10 @@ textarea {
 }
 
 /* Footer */
+/* Makes footer stick to bottom */
+footer {
+    margin-top: auto;
+}
 /* Footer hr element styling to fit header / navbar style */
 #footer-separation {
     color: #a22527;
@@ -440,7 +449,7 @@ textarea {
     #locations-container {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
         width: 100%;
     }
 
