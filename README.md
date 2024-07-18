@@ -204,7 +204,7 @@ Existing Members
 ### Code
 
 - The code for the navbar with toggle option was taken from the [Love Running](https://github.com/anchvo/love-running) project that was created during the course with [Code Institute](https://codeinstitute.net). 
-- Trouble-Shooting for bugs was assissted by using [W3Schools](https://www.w3schools.com/) and [MDN Web Docs](https://developer.mozilla.org/en-US/)
+- Trouble-Shooting for bugs was assissted by using [W3Schools](https://www.w3schools.com/) and [MDN Web Docs](https://developer.mozilla.org/en-US/).
 
 ### Content
 
@@ -212,4 +212,4 @@ Existing Members
 
 ### Media
 
-- The videos used and embedded are from [YouTube](https://youtube.com).
+- The videos used and embedded were taken from [YouTube](https://youtube.com).
