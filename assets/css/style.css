@@ -425,7 +425,7 @@ footer {
     }
 
     #logo {
-        font-size: 200%;
+        font-size: 180%;
         margin: 0.7rem 0;
     }
 
@@ -501,6 +501,11 @@ footer {
 
 /* Media query: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
+
+    #logo {
+        font-size: 200%;
+        margin: 0.7rem 0;
+    }
     /* About section */
     #about-container {
         display: flex;
