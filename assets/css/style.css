@@ -187,7 +187,7 @@ main {
 }
 
 /* Styling for about topic titles */
-#about-topic-titles {
+.about-topic-titles {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1em;
