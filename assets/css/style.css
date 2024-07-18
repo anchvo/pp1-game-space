@@ -254,7 +254,7 @@ main {
 #events img {
     height: 80vw;
     width: 90vw;
-    margin: 10px 0;
+    margin: 10px 0 10px 60px;
     /* Makes square image into a circle */
     border-radius: 20%;
     max-width: 400px;
@@ -313,6 +313,12 @@ main {
     border-radius: 8px;
     box-shadow: 2px 2px 8px 2px rgba(162, 37, 39, 0.3);
     margin: 10px auto;
+}
+
+iframe {
+    width: 90vw;
+    max-width:  300px !important;
+    max-height: 300px !important;
 }
 
 /*Join Us section*/
@@ -544,6 +550,12 @@ footer {
         flex-direction: row;
     }
 
+    #resources-hardware > div , 
+    #resources-information > div {
+        min-width: 75%;
+        margin: 5px 10px;
+    }
+
     #resources-container > div {
         flex: 1;
     }
@@ -566,5 +578,11 @@ footer {
 
     #resources-hardware > div {
         align-self: flex-end;
+    }
+
+    iframe {
+        width: 90vw;
+        max-width:  300px !important;
+        max-height: 300px !important;
     }
 }
