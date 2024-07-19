@@ -256,7 +256,7 @@ main {
     /* Makes square image into a circle */
     border-radius: 20%;
     max-width: 400px;
-    max-height: 250px;
+    max-height: 267px;
 }
 
 .events-images {
@@ -314,9 +314,18 @@ main {
 }
 
 iframe {
-    width: 90vw;
-    max-width:  300px !important;
-    max-height: 300px !important;
+    max-width: 250px;
+    max-height: 167px;
+    align-self: center;
+    border: 2px solid #010323;
+}
+
+.resources-videos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 /*Join Us section*/
