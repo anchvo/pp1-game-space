@@ -19,20 +19,22 @@ This website is meant for:
 ### User Experience
 New Users
 
-  - As a new User: I want to know more about Game Space and its community.
-  - As a new User: I want to find out more about events.
-  - As a new User: I want to find out more about community resources.
-  - As a new User: I want to sign up for events.
-  - As a new User: I want to sign up and become part of the community.
-  - As a new User: I want to build a partnership with Game Space.
-  - As a new User: I want to sponsor Game Space.
+  - __As a new User:__
+      - I want to know more about Game Space and its community.
+      - I want to find out more about events.
+      - I want to find out more about community resources.
+      - I want to sign up for events.
+      - I want to sign up and become part of the community.
+      - I want to build a partnership with Game Space.
+      - I want to sponsor Game Space.
 
 
 Existing Members
 
-  - As a Member: I want to be able to find upcoming events.
-  - As a Member: I want to sign up for events.
-  - As a Member: I want to be able to use the community resources.
+  - __As a Member:__
+      - I want to be able to find upcoming events.
+      - I want to sign up for events.
+      - I want to be able to use the community resources.
 
 ### User Goals
     
