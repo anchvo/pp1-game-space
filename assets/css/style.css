@@ -372,8 +372,8 @@ textarea {
 .join-button {
     border: 1px solid rgb(1, 35, 37);
     border-radius: 2px;
-    max-width: 300px;
-    max-height: 200px;
+    max-width: 150px;
+    max-height: 50px;
     margin: 10px 37%;
     padding: 10px 10px;
     font-size: 90%;
@@ -443,7 +443,6 @@ footer {
     main {
         margin-top: 82px;
     }
-    /* Responsive Try 1 */
     /* About section */
     #about-container {
         display: flex;
@@ -528,6 +527,12 @@ footer {
             left: 10px;
             max-width: 450px;
     }
+
+    .join-button {
+        width: 150px;
+        margin: 10px 33%;
+
+
 }
 
 /* Media query: laptops and desktops (992px and up) */
@@ -622,9 +627,32 @@ footer {
         align-self: flex-end;
     }
 
-    /* iframe {
-        width: 90vw;
-        max-width:  300px !important;
-        max-height: 300px !important;
-    }*/ 
+}
+
+/* Media query: desktops (1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    /* Events section */
+    #events-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #events-container > div {
+        max-width: 50%;
+    }
+
+    #events img {
+        max-width: 480px;
+        max-height: 320px;
+    }
+
+    /* Resources section */ 
+    #resources-circle-image-bg {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
 }
