@@ -201,7 +201,7 @@ Existing Members
 
 ### Help, Advice and Inspiration
 
-- Martina Terlevic - My wonderful mentor
+- Martina Terlevic - my wonderful mentor. 
 
 ### Code
 
