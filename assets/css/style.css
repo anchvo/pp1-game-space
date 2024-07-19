@@ -313,19 +313,19 @@ main {
     margin: 10px auto;
 }
 
-iframe {
-    max-width: 250px;
-    max-height: 167px;
-    align-self: center;
-    border: 2px solid #010323;
-}
-
 .resources-videos {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 10px;
     margin-top: 10px;
+}
+
+iframe {
+    max-width: 250px;
+    max-height: 167px;
+    align-self: center;
+    border: 2px solid #010323;
 }
 
 /*Join Us section*/
@@ -487,6 +487,12 @@ footer {
 
     /* Resources section */
 
+    #resources-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
     #resources-hardware , #resources-information {
         display: flex;
         flex-direction: column;
@@ -497,8 +503,24 @@ footer {
     #resources-hardware > div , 
     #resources-information > div {
         width: 75%;
+        height: auto;
         margin: 5px 10px;
         align-self: center;
+    }
+
+    .resources-videos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    iframe {
+        max-width: 480px;
+        max-height: 320px;
+        align-self: center;
+        border: 2px solid #010323;
     }
 
     #joinus-form {
@@ -566,8 +588,14 @@ footer {
 
     #resources-hardware > div , 
     #resources-information > div {
-        min-width: 75%;
+        min-width: 320px;
+        max-width: 320px;
         margin: 5px 10px;
+    }
+
+    #resources-circle-image-bg {
+        max-width: 270px;
+        max-height: 270px;
     }
 
     #resources-container > div {
@@ -594,9 +622,9 @@ footer {
         align-self: flex-end;
     }
 
-    iframe {
+    /* iframe {
         width: 90vw;
         max-width:  300px !important;
         max-height: 300px !important;
-    }
+    }*/ 
 }
