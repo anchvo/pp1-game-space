@@ -135,9 +135,10 @@ Existing Members
   - To be consistent in the overall design, the resources page welcomes the user with a title and subtitle, briefly stating what kind of information can be found on the page. 
   - This page includes an image of a computer set-up that will allow the user to quickly realise what the content of the page is about. 
   - The rest of the content is separated into four parts, each with a relating title that will allow the user to find relevant information more quickly.
-  - The content is supported by videos embedded for each part which will allow the user to quickly get an example for the included content. 
+  - The content is supported by videos embedded for each part which will allow the user to quickly get an example for the included content.
+    - The videos on the page have autoplay disabled to allow a better user experience.  
 
-  Screenshot 
+  ![Resources Page](screenshots/resources-page.png)
 
 - __Join Us Page__
 
@@ -146,7 +147,7 @@ Existing Members
   - Additionally, the user will be able to choose from a list of activites they would like to take part in after joining.
   - For further information not included in the form, the user will be able to write further concerns into a textarea, allowing for specific questions to be asked.
   
-  Screenshot
+  ![Join Us Page](screenshots/joinus-page.png)
 
 - __Hidden Thank You Page__
 
@@ -160,11 +161,16 @@ Existing Members
 - The site was tested on different screen sizes and confirmed to be responsive, good looking and functional via Devtools and the device toolbar.
 - The site was tested for readability and easy understanding on all webpages.
 - The links across all webpages were tested for functionality and confirmed to be opening either in the same document (internal navigation links) or in a new tab (external links).
+- The videos were tested for playability and the disablement of the autoplay feature. 
 - The form was tested for functionality: 
     - required entries in first name, last name, email address, and radio buttons fields.
     - the field for email will only accept a valid email address.
     - the submit button works.
     - the link to the hidden thank you page works and opens correctly.
+
+- The submission of the form data was further tested and confirmed with the codeinstitute formdump page and respective code:
+  ![Join Us Code Institute Formdump Code](screenshots/joinus-codeinstitute-formdump-code.png)
+  ![Join Us Code Institute Formdump Test](screenshots/joinus-codeinstitute-formdump-test.png)
 
 ### Validator Testing 
 
@@ -200,6 +206,10 @@ Existing Members
   The live link can be found here: [Game Space](https://anchvo.github.io/pp1-game-space/).
 
 ## Credits
+
+### Disclaimer
+
+- This page is a fictional creation and fitting content like images and media were chosen because of their thematic relevance and to best represent the idea. All images have been taken from open source websites. Videos were embedded and linked from their origin websites. The location pins for Google Maps were chosen at random and have no connection to real life places or people. 
 
 ### Help, Advice and Inspiration
 
