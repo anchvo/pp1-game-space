@@ -31,10 +31,10 @@ Basic requirements:
 
 ### User Demographic
 This website is meant for:
-  - Gamers from all backgrounds and platforms interested in joining a community
-  - Game Content Creators interested in joining a community
-  - Game Studios, Game Equipment manufactures and game magazines interested in collaborations
-  - Sponsors interested in promoting a gaming community
+  - Gamers from all backgrounds and platforms interested in joining a community.
+  - Game Content Creators interested in joining a community.
+  - Game Studios, Game Equipment manufactures and game magazines interested in collaborations.
+  - Sponsors interested in promoting a gaming community.
 
 ### User Experience
 New Users
@@ -48,7 +48,6 @@ New Users
       - I want to build a partnership with Game Space.
       - I want to sponsor Game Space.
 
-
 Existing Members
 
   - __As a Member:__
@@ -56,14 +55,24 @@ Existing Members
       - I want to sign up for events.
       - I want to be able to use the community resources.
 
+  - __As a Partner:__
+      - I want to be able to find upcoming events.
+      - I want to plan and collaborate for events.
+      - I want to be able to take part in the community.
+
+  - __As a Sponsor:__
+      - I want to be able to find upcoming events.
+      - I want to sponsor events.
+      - I want to be able to take part in the community.
+
 ### User Goals
     
-  - Find information about gaming community
-  - Sign up to events
-  - Gain access to community resources
-  - Join Community
-  - Contact or visit community locations
-  - Create partnership or sponsorship
+  - Find information about gaming community.
+  - Sign up to events.
+  - Gain access to community resources.
+  - Join Community.
+  - Contact or visit community locations.
+  - Create partnership or sponsorship.
 
 ## Design
 
@@ -84,7 +93,6 @@ Existing Members
   - Images has been chosen in relation to content and colour.
   - The images used on the website (all pages) are from the open source site [Pexels](https://pexels.com).
 
-
 ## Features
 
 - __Favicon__
@@ -101,7 +109,6 @@ Existing Members
   - The navigation bar is located at the top of the page. It includes the name of the page as a big logo in the left corner. 
   - The other links are located on the left site either all visible in a row or hidden behind a icon that can be toggled to show the links.
   - The navigation bar  will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-
 
   ![Navigation Bar](screenshots/navigation-bar.png)
 
@@ -183,11 +190,11 @@ Existing Members
 
 ## Testing 
 
-- The site was tested and confirmed to be working in different browsers: Firefox, Brave
+- The site was tested and confirmed to be working in different browsers: Firefox, Brave, Safari. 
 - The site was tested on different screen sizes and confirmed to be responsive, good looking and functional via Devtools and the device toolbar.
 - The site was tested for readability and easy understanding on all webpages.
 - The links across all webpages were tested for functionality and confirmed to be opening either in the same document (internal navigation links) or in a new tab (external links).
-- The videos were tested for playability and the disablement of the autoplay feature. 
+- The videos were tested for playability and the deactivation of the autoplay feature. 
 - The form was tested for functionality: 
     - required entries in first name, last name, email address, and radio buttons fields.
     - the field for email will only accept a valid email address.
@@ -269,7 +276,8 @@ Existing Members
 ### Content
 
 - The icons used on the webpage and in the footer were taken from [Font Awesome](https://fontawesome.com/).
+- The favicon used for the webpage was taken from [Favicon Generator](https://favicon.io/).
 
 ### Media
 
-- The videos used and embedded were taken from [YouTube](https://youtube.com).
+- The videos used and embedded on the webpage were taken from [YouTube](https://youtube.com).
