@@ -1,13 +1,33 @@
 # Game Space
+
+![Responsive Mockup](screenshots/game-space-responsive-mockup.png)
+
 The Game Space website is the online presence of a gaming community that offers meeting spaces for gamers in three different locations in Germany. Members can meet at those locations and play games together, either by using provided equipment or bringing their own set-ups. Game Space also collaborates with Partners ans Sponsors like game studios, equipment manufacturers and game magazines to offer access to equipment and exclusive events. The members can also take part in the community by writing reviews, offering help and creating content like walkthroughs to help other members. 
 
 Users will find all necessary information on the website: An introduction of the community, events, locations and contact information, offered resources and examples and a sign up form for new members or partners. The site is targeted towards gamers that want to meet and interact with other gamers and likeminded people.
 
-![Responsive Mockup](screenshots/game-space-responsive-mockup.png)
-
 The live link can be found here: [Game Space](https://anchvo.github.io/pp1-game-space/).
 
+## Requirements
+
+This website was created as the first required project for the Diploma in Full Stack Software Development from [Code Insitute](https://codeinstitute.net). 
+
+Basic requirements:
+  - A static responsive website that incorporates the technologies HTML/CSS.
+  - Documentation and deployment via GitHub.
+  - Readme.md documentation.
+  - Manual and validator testing.
+
 ## UX
+
+### Site Goals
+
+  - Provide information about what Game Space does and how they work.
+  - Provide information about Game Space locations, contact options and available equipment.
+  - Provide information about upcoming events and keep them up to date.
+  - Provide information about resources available via Game Space.
+  - Provide the option for users to sign up as members, partners or sponsors for Game Space.
+  - Provide the option for users to connect with Game Space on social media channels.
 
 ### User Demographic
 This website is meant for:
@@ -45,7 +65,6 @@ Existing Members
   - Contact or visit community locations
   - Create partnership or sponsorship
 
-
 ## Design
 
 ### Typography
@@ -67,6 +86,13 @@ Existing Members
 
 
 ## Features
+
+- __Favicon__
+
+  - Featured in the website tab along with the title, the included Favicon shows a gaming controller relating to the theme of the website and the title.
+  - The Favicon will allow the user to get a first idea of what the website is about and clarifies the title by showing what kind of Game Space they can expect.
+
+  ![Favicon](screenshots/favicon.png)
 
 - __Navigation Bar__
 
@@ -188,7 +214,27 @@ Existing Members
 
       ![Lighthouse Accessibility Testing](screenshots/lighthouse-accessibility.png)
 
-### Unfixed Bugs
+### Fixed Bugs
+
+  - __Images__
+
+    - Images show up in Gitpod preview but not in live deployment version of the website.
+      - Fixed: Changed the image file paths to the correct relative file paths.
+
+  - __Footer__
+
+    - Footer does not appear fixed at the bottom of the page and instead directly below the main content.
+      - Fixed: Added margin-top:auto to the footer styling to make it stick to the bottom of the page.
+
+  - __Link Hovering Effect__
+
+    - Hovering over links makes them appear bold and bigger but also affect elements around the link, moving them to make space for the bigger link.
+      - Fixed: Removed the increased font-size for a:hover links and only used font-weight: bold, to make them stand out but not increase the size of the link.
+
+  - __Join Us Submit Button__
+
+    - The button and its text increase the button size and run over two lines when changing screen size.
+      - Fixed: Set specific width and height attributes for the button for different screen sizes in their respective media queries. 
 
 ## Deployment
 
