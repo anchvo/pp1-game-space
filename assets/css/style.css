@@ -194,7 +194,7 @@ main {
 }
 
 /* Locations section */
-
+/* General section styles */
 #locations {
     width: 100vw;
 }
@@ -234,7 +234,7 @@ main {
 }
 
 /* Events section */
-/* General styling for section instead of only div container so styling applies to whole section content */
+/* General section styles */
 #events {
     display: flex;
     flex-direction: column;
@@ -284,6 +284,7 @@ main {
 }
 
 /* Resources section */
+/* General section styles */
 #resources {
     width: 100vw;
 }
@@ -332,6 +333,7 @@ main {
     margin: 5px;
 }
 
+/* Embedded Video styles */
 iframe {
     max-width: 250px;
     max-height: 167px;
@@ -340,6 +342,7 @@ iframe {
 }
 
 /*Join Us section*/
+/* General section styles */
 #joinus {
     width: 100vw;
 }
@@ -496,7 +499,6 @@ footer {
     }
 
     /* Resources section */
-
     #resources-container {
         display: flex;
         flex-direction: column;
@@ -525,7 +527,7 @@ footer {
         padding-bottom: 10px;
         margin-top: 10px;
     }
-
+    /* Embedded video styles */
     iframe {
         max-width: 480px;
         max-height: 320px;
@@ -548,10 +550,12 @@ footer {
 /* Media query: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
 
+    /*Header*/
     #logo {
         font-size: 200%;
         margin: 0.7rem 0;
     }
+
     /* About section */
     #about-container {
         display: flex;
@@ -595,6 +599,7 @@ footer {
         margin: 5px 10px;
         max-width: 320px;
     }
+    
     /* Resources section */
     #resources-container {
         display: flex;
