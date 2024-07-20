@@ -327,7 +327,7 @@ main {
     margin-top: 10px;
 }
 
-.resources-videos label {
+.resources-video-titles {
     text-transform: uppercase;
     font-size: smaller;
     margin: 5px;
@@ -599,7 +599,7 @@ footer {
         margin: 5px 10px;
         max-width: 320px;
     }
-    
+
     /* Resources section */
     #resources-container {
         display: flex;
